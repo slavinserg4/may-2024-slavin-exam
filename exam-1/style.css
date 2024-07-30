@@ -146,10 +146,110 @@ main{
     text-transform: capitalize;
     opacity: 0.5;
 }
+.second-section{
+    width: 100%;
+    margin-bottom: 74px;
+}
+.second-section>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+    gap: 61px;
+}
+.second-section>div>.text-second-section>h2{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+    width: 542px;
+}
+.second-section h3{
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+.second-section>div>.text-second-section>p{
+    width: 521px;
+    color: #4C99BB;
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px; /* 119.231% */
+}
+.second-section h4{
+    width: 418px;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.second-section svg{
+   position: relative;
+    top: 13px;
+}
+.second-section .buttons-sec button{
+    width: 126px;
+    height: 68px;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    background: none;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 40px;
+}
+.background{
+    position: absolute;
+    right: 125px;
+    top: 30px;
+}
+.table-second{
+    width: 521px;
+    height: 132px;
+    border-radius: 18px;
+    background: #3A5B6A;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+.table-second div{
 
-
-
-
-
-
+}
+.table-second>div>h4{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: auto;
+    margin-bottom: 18px;
+}
+.table-second>div>p{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
 
