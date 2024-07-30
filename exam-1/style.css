@@ -148,7 +148,7 @@ main{
 }
 .second-section{
     width: 100%;
-    margin-bottom: 74px;
+    margin-bottom: 221px;
 }
 .second-section>div{
     display: flex;
@@ -229,9 +229,6 @@ main{
     align-items: center;
     gap: 44px;
 }
-.table-second div{
-
-}
 .table-second>div>h4{
     color: #FFF;
     font-family: Outfit, sans-serif;
@@ -252,4 +249,130 @@ main{
     line-height: normal;
     text-transform: capitalize;
 }
+.third-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 234px;
+}
+.carry-out{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 219px;
+}
+.carry-out>div>h2{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.carry-out>div>button{
+    width: 450px;
+    height: 96px;
+    border-radius: 100px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    background: #1F143B;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 58px;
+}
+.first-card{
+    width: 375px;
+    height: 507px;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+}
+
+.first-card img{
+    width: 375px;
+}
+.text-button{
+    display: flex;
+    gap: 25px;
+    margin: 0 0 22px 30px;
+}
+.text-button p{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.text-button span{
+    color: #23263C;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.text-button button{
+    width: 147.461px;
+    height: 51px;
+    border-radius: 3px;
+    border: 2px solid #000;
+    background: #1F143B;
+    color: #52A7C6;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #02061A;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.monkey-card-text{
+    color: #56CAB1;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #02061A;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 12px 0 15px 30px;
+}
+.second-card{
+    transform: rotate(-25.337deg);
+    position: absolute;
+    width: 380.311px;
+    height: 466.66px;
+    z-index: -1;
+}
+.second-card .text-button button{
+    display: none;
+}
+.second-card img{
+    width: 380.121px;
+    height: 323.047px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
