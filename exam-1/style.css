@@ -290,6 +290,7 @@ main{
     height: 507px;
     border-radius: 10px;
     background: rgba(137, 130, 130, 0.50);
+    margin-bottom: 74px;
 }
 
 .first-card img{
@@ -351,11 +352,13 @@ main{
     margin: 12px 0 15px 30px;
 }
 .second-card{
-    transform: rotate(-25.337deg);
     position: absolute;
     width: 380.311px;
     height: 466.66px;
     z-index: -1;
+    right: 233px;
+    margin: 0 250px 206px 0;
+    transform: rotate(-25.337deg);
 }
 .second-card .text-button button{
     display: none;
@@ -364,6 +367,91 @@ main{
     width: 380.121px;
     height: 323.047px;
 }
+.fourth-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fourth-section>h3{
+    color: #5BD2BF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase; margin-bottom: 4px;
+}
+.fourth-section>h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 147px;
+}
+.cards-info{
+    margin-bottom: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.info{
+    width: 345px;
+    height: 360px;
+    border-radius: 10px;
+    background: #24293F;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+.info h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 27px;
+}
+.info p{
+    width: 302px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.info img{
+    position: absolute;
+    border-radius: 50%;
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    top:-75px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
