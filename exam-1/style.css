@@ -211,7 +211,7 @@ main{
     line-height: normal;
     text-transform: capitalize;
     position: relative;
-    margin-bottom: 40px;
+    margin: -15px 0 40px 0;
 }
 .background{
     position: absolute;
@@ -261,6 +261,7 @@ main{
     justify-content: center;
     align-items: flex-end;
     gap: 219px;
+    width: 1440px;
 }
 .carry-out>div>h2{
     color: #FFF;
@@ -292,7 +293,6 @@ main{
     background: rgba(137, 130, 130, 0.50);
     margin-bottom: 74px;
 }
-
 .first-card img{
     width: 375px;
 }
@@ -356,8 +356,7 @@ main{
     width: 380.311px;
     height: 466.66px;
     z-index: -1;
-    right: 233px;
-    margin: 0 250px 206px 0;
+    margin: 0 0 206px 160px;
     transform: rotate(-25.337deg);
 }
 .second-card .text-button button{
@@ -553,21 +552,15 @@ main{
     justify-content: center;
     align-items: center;
 }
-.fifth-foot form input{
-    color: black;
-    opacity: 1;
-    font-family: Outfit, sans-serif;
+.fifth-foot form input[type="email"]{
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
     background: none;
     border: none;
     width: 94px;
-    margin-left: 25px;
+    margin-left: 12px;
 }
-.fifth-foot form input:nth-child(2){
+.fifth-foot form input[type="submit"]{
     width: 100px;
     height: 58px;
     border-radius: 50px;
@@ -579,10 +572,22 @@ main{
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
-    margin-left: 33px;
+    margin-left: 46px;
+    border: none;
 }
-
-
+.fifth-foot form input[type="email"]:focus{
+    outline: none;
+}
+.fifth-foot form input[type="email"]::placeholder{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
 
 
 
