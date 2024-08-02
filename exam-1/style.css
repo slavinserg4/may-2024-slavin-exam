@@ -228,6 +228,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 44px;
+    text-align: center;
 }
 .table-second>div>h4{
     color: #FFF;
